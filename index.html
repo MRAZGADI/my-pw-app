@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Web App</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      width: 100%;
+      text-align: center;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 600px;
+      width: 100%;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+
+    @media (min-width: 768px) {
+      body {
+        background-color: #e8f5e9;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Responsive App</h1>
+  </header>
+
+  <main>
+    <p>Hello! This app works on phones, tablets, and laptops.</p>
+    <button onclick="alert('You clicked the button!')">Click me</button>
+  </main>
+</body>
+</html>
